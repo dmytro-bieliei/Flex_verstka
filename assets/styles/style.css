@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+main {
+  /* background-color: rgb(141, 141, 224); */
+}
+
+.header_background {
+  background-color: rgb(159, 157, 155);
+  background-image: url(../images/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  min-height: 450px;
+  color: #fff;
+  /* height: 100vh; */
+  /* width: 100%; */
+}
+
+.main_heading {
+  font: 2em;
+  font-weight: bold;
+}
+
+.head_text_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 100%; */
+  min-height: 450px;
+
+}
+
+.button {
+  color: #fff;
+  border: 1px solid #666;
+  background-color: #333;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.article_heading {
+  font-weight: bold;
+  padding: 1.2em;
+}
+
+.article {
+  padding: 1.2em;
+}
+
+#card_block {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 1.2em;
+}
+
+.card {
+  display: inline-block;
+  /* width: 31%; */
+  /* min-width: 300px; */
+  max-width: 400px;
+  background-color: #fff;
+  color: black;
+  /* margin: 1.2em; */
+  /* padding: 1em; */
+}
+
+.card_heading{
+  padding: 1em;
+  font-weight: bold;
+}
+
+.card_text {
+  padding: 1em;
+}
+img {
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.company_information {
+  display: flex;
+  color: #fff;
+
+}
+
+.about_company_heading {
+  padding: 1em;
+  font-weight: bold;
+}
+
+.contacts {
+  display: inline-block;
+  background-color: #2690d4;
+  max-width: 50%;
+  padding: 1.2em;
+}
+
+.about_company {
+  /* display: inline-block; */
+  background-color: #333;
+  max-width: 50%;
+  padding: 1.2em;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
