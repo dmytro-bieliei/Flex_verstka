@@ -7,11 +7,6 @@ body {
   text-align: center;
   font-size: 1.1em;
   line-height: 1.5;
-  /* min-width: 550px; */
-}
-
-main {
-  /* background-color: rgb(141, 141, 224); */
 }
 
 .header_background {
@@ -50,6 +45,11 @@ main {
   padding: 1em 2em;
 }
 
+.button:hover {
+  background-color: #eaeaea;
+  color: #333;
+}
+
 .article_heading {
   font-weight: bold;
   padding: 1.2em;
@@ -61,28 +61,17 @@ main {
 
 #card_block {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #333;
   padding: 1.2em 6em;
 }
 
-/* .card_block {
-  display: flex;
-  justify-content: space-evenly;
-  min-width: 1300px;
-  
-} */
-
 .card {
-  /* overflow: hidden; */
-  display: inline-block;
-  width: 200px;
   min-width: 300px;
   max-width: 400px;
   background-color: #fff;
   color: black;
   margin: 5px;
-  /* padding: 1em; */
 }
 
 .card_heading{
@@ -93,7 +82,7 @@ main {
 .card_text {
   padding: 1em;
 }
-img {
+.card_image {
   /* min-width: 300px; */
   max-width: 100%;
 }
@@ -101,7 +90,6 @@ img {
 .company_information {
   display: flex;
   color: #fff;
-
 }
 
 .about_company_heading {
@@ -123,7 +111,14 @@ img {
   padding: 1.2em;
 }
 
-footer {
+.footer_decor {
+  display: flex;
+  justify-content: space-around;
   background-color: #000;
   color: #fff;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: #2690d4;
 }
