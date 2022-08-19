@@ -1,3 +1,8 @@
+:root {
+  --almost-black: #333;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,7 +12,7 @@ body {
   text-align: center;
   font-size: 1.1em;
   line-height: 1.5;
-  background-color: #333;
+  background-color: var(--almost-black);
 }
 
 .header_background {
@@ -18,7 +23,7 @@ body {
   background-repeat: no-repeat;
   display: block;
   min-height: 450px;
-  color: #fff;
+  color: var(--white);
   /* opacity: 0.4; */
 }
 
@@ -40,9 +45,9 @@ body {
 }
 
 .button {
-  color: #fff;
+  color: var(--white);
   border: 1px solid #666;
-  background-color: #333;
+  background-color: var(--almost-black);
   text-decoration: none;
   padding: 1em 2em;
   margin: 0.5em 0;
@@ -50,7 +55,7 @@ body {
 
 .button:hover {
   background-color: #eaeaea;
-  color: #333;
+  color: var(--almost-black);
 }
 
 .article_heading {
@@ -67,20 +72,20 @@ body {
 
 .article {
   padding: 1.2em;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 #card_block {
   display: flex;
   justify-content: space-evenly;
-  background-color: #333;
+  background-color: var(--almost-black);
   padding: 1.2em 6em;
 }
 
 .card {
   min-width: 300px;
   max-width: 400px;
-  background-color: #fff;
+  background-color: var(--white);
   color: black;
   margin: 5px;
 }
@@ -104,7 +109,7 @@ body {
 
 .company_information {
   display: flex;
-  color: #fff;
+  color: var(--white);
 }
 
 .about_company_heading {
@@ -124,7 +129,7 @@ body {
 }
 
 .about_company {
-  background-color: #333;
+  background-color: var(--almost-black);
   /* width: 50%;
   padding: 1.2em; */
 }
@@ -138,7 +143,7 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #000;
-  color: #fff;
+  color: var(--white);
 }
 
 /* .footer_link {
