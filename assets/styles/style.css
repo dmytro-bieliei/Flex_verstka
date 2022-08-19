@@ -160,3 +160,31 @@ a[href="https://traversymedia.com/"] {
   padding: 2em;
 }
 
+@media screen and (max-width:960px){
+  #card_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:960px){
+  .company_information {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts,.about_company {
+    width: 100%;
+    padding: 1.2em;
+  }
+}
+
+@media screen  and (min-width:2220px) {
+  body {
+    max-width: 2220px;
+    margin: 0 auto;
+  }
+}
